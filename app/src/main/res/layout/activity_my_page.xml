@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/logo2"
+                android:layout_weight="0.7"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="My  Page"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:fontFamily="@font/lottemart"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mypage_layout"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="102dp"
+                android:layout_height="113dp"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lottemart"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="---"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lottemart"
+                android:text="님 안녕하세요 \n\n\n 오늘은 무엇을\n 담으러 오셨나요? :)"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E9ECEC" />
+
+        <Button
+            android:id="@+id/shoppingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="쇼핑 리스트" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:background="#E9ECEC" />
+
+        <Button
+            android:id="@+id/noticeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="공지사항" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E9ECEC" />
+
+        <Button
+            android:id="@+id/questionBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="자주 묻는 질문" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E9ECEC" />
+
+        <Button
+            android:id="@+id/labBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="버전" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:background="#E9ECEC" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:text="\n\n\n 안녕하세요 저희는 '잘먹고 잘사자' 잘먹사 팀입니다. \n 서비스 이용 약관 / 개인정보 처리 방침 \n 방구석 마켓" />
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

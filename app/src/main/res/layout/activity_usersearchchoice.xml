@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/logo2"
+            android:layout_weight="0.7"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/myp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/img"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerInParent="true"
+        android:background="#000000"/>
+
+
+    //텍스트 1단계
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="▼ 알아보고 싶은 야채를 Click 해주세요 ▼"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //품목뷰
+    <HorizontalScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            //1번 품목 이미지 스크롤뷰
+
+            <ImageButton
+                android:id="@+id/var1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/apple"
+                android:scaleType="fitXY"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/var2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/baechoo"
+                android:scaleType="fitXY"
+                android:src="@drawable/baechoo" />
+
+            <ImageButton
+                android:id="@+id/var3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/beef"
+                android:scaleType="fitXY"
+                android:src="@drawable/beef" />
+
+            <ImageButton
+                android:id="@+id/var4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/chicken"
+                android:scaleType="fitXY"
+                android:src="@drawable/chicken" />
+
+            <ImageButton
+                android:id="@+id/var5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cucumber"
+                android:scaleType="fitXY"
+                android:src="@drawable/cucumber" />
+
+            <ImageButton
+                android:id="@+id/var6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/eggten"
+                android:scaleType="fitXY"
+                android:src="@drawable/eggten" />
+
+            <ImageButton
+                android:id="@+id/var7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/jogi"
+                android:scaleType="fitXY"
+                android:src="@drawable/jogi" />
+
+            <ImageButton
+                android:id="@+id/var8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/lettuce"
+                android:scaleType="fitXY"
+                android:src="@drawable/lettuce" />
+
+            <ImageButton
+                android:id="@+id/var9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/mackerel"
+                android:scaleType="fitXY"
+                android:src="@drawable/mackerel" />
+
+            <ImageButton
+                android:id="@+id/var10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/moo"
+                android:scaleType="fitXY"
+                android:src="@drawable/moo" />
+
+            <ImageButton
+                android:id="@+id/var11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/myungtae"
+                android:scaleType="fitXY"
+                android:src="@drawable/myungtae" />
+
+            <ImageButton
+                android:id="@+id/var12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/onion"
+                android:scaleType="fitXY"
+                android:src="@drawable/onion" />
+
+            <ImageButton
+                android:id="@+id/var13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pear"
+                android:scaleType="fitXY"
+                android:src="@drawable/pear" />
+
+            <ImageButton
+                android:id="@+id/var14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pork"
+                android:scaleType="fitXY"
+                android:src="@drawable/pork" />
+
+            <ImageButton
+                android:id="@+id/var15"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pumkin"
+                android:scaleType="fitXY"
+                android:src="@drawable/pumkin" />
+
+            <ImageButton
+                android:id="@+id/var16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/squid"
+                android:scaleType="fitXY"
+                android:src="@drawable/squid" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    //텍스트 2단계
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="▼ 사는 동네를 Click 해주세요 ▼"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //자치구 뷰
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu1"
+                android:text="강남구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu2"
+                android:text="강동구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu3"
+                android:text="강북구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu4"
+                android:text="강서구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu5"
+                android:text="구로구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu6"
+                android:text="관악구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu7"
+                android:text="광진구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu8"
+                android:text="노원구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu9"
+                android:text="도봉구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu10"
+                android:text="동작구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu11"
+                android:text="동대문구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu12"
+                android:text="마포구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu13"
+                android:text="서대문구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu14"
+                android:text="서초구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu15"
+                android:text="성동구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu16"
+                android:text="성북구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu17"
+                android:text="송파구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu18"
+                android:text="양천구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu19"
+                android:text="영등포구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu20"
+                android:text="용산구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu21"
+                android:text="은평구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu22"
+                android:text="중랑구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu23"
+                android:text="중구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gu24"
+                android:text="종로구"
+                android:textSize="13dp"
+                android:background="@drawable/gubutton"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    //텍스트 3단계
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/choosemart"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="▼  마트 VS 시장 당신의 선택은 ▼"
+            android:textSize="13dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //마트종류랑 이름 리니어
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        //마트종류 리니어
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/martbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="대형마트"
+                android:visibility="invisible"
+                android:id="@+id/bigmart"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/martbutton"
+                android:textSize="13dp"
+                android:text="전통시장"
+                android:visibility="invisible"
+                android:id="@+id/smallmart"/>
+        </LinearLayout>
+
+        //텍스트 4단계
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/visitmart"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="▼  방문할 곳은 선택해주세요 ▼"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        //마트이름,,최대 4개,, 안쓰는건 자바에서 invisible로 설정하기
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/namemart1"
+                android:visibility="invisible"
+                android:background="@drawable/martname_button"
+                android:textSize="13dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/namemart2"
+                android:visibility="invisible"
+                android:background="@drawable/martname_button"
+                android:textSize="13dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/namemart3"
+                android:background="@drawable/martname_button"
+                android:visibility="invisible"
+                android:textSize="13dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/namemart4"
+                android:background="@drawable/martname_button"
+                android:visibility="invisible"
+                android:textSize="13dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    //검색버튼 + click버튼
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:text=" Click →   "
+            android:textColor="#E74432"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/search_button"
+            android:text="검색하기"
+            android:onClick="apiOnClick"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    //API 시작
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:background="@drawable/serach_afterbtn"
+            android:id="@+id/searafterlatyout"
+            android:layout_width="350dp"
+            android:layout_height="1000dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/oktext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="▼ 검색 결과를 확인해주세요 ▼"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/DB_martname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lottemart"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DB_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lottemart"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DB_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/lottemart"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/lottemart"
+                    android:text="찜 넣기 Click → "
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/zimclickbtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="#FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/love" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/pagebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#FFFFFF"
+                    android:fontFamily="@font/lottemart"
+                    android:text="찜 페이지 Go"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

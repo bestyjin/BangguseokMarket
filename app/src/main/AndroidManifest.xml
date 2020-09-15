@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jalmaksa.bm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.jalmaksa.bm.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/kakao_app_key"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.jalmaksa.bm.LoadingActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.jalmaksa.bm.LoginPage">
+        </activity>
+
+        <!--kako logig-->
+        <activity  android:name="com.jalmaksa.bm.GlobalApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/kakao_app_key"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:usesCleartextTraffic="true"
+            android:theme="@style/AppTheme"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBewS3oU-soYjEJES4VO1Hy2wrJoLAedd4" />
+
+        <activity android:name="com.jalmaksa.bm.MapsActivity" />
+        <activity android:name="com.jalmaksa.bm.FoodAfter_Search" />
+        <activity android:name="com.jalmaksa.bm.FoodRecomend" />
+        <activity android:name="com.jalmaksa.bm.Jachal" />
+        <activity android:name="com.jalmaksa.bm.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jalmaksa.bm.SearchAfterPage">
+        </activity>
+
+        <activity android:name="com.jalmaksa.bm.Knowhow">
+        </activity>
+
+        <activity android:name="com.jalmaksa.bm.UserChoiceSearch">
+        </activity>
+
+        <activity android:name="com.jalmaksa.bm.ShoppingList" />
+        <activity android:name="com.jalmaksa.bm.Notice" />
+        <activity android:name="com.jalmaksa.bm.Question" />
+        <activity android:name="com.jalmaksa.bm.MyPage" />
+        <activity android:name="com.jalmaksa.bm.Version" />
+
+
+
+        <activity android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize"/>
+    </application>
+
+
+</manifest>
