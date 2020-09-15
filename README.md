@@ -3,7 +3,7 @@
 
 - 본인 담당
 1. sqlite 이용한 앱 전체 데이터베이스
-2. 쇼핑 리스트 구현 및 선택, 삭제, 공유 구현  <br>
+2. 쇼핑 찜리스트 구현 및 선택, 삭제, 공유 구현  <br>
 ![10](https://user-images.githubusercontent.com/71006256/93239435-ba052380-f7bd-11ea-887a-b75fe556582e.jpg)
 - 사용 API
 1. 카카오 로그인 api
